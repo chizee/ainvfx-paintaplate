@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: AInVFX:main
+    mergeMethod: hardreset
+    mergeUnstable: true
